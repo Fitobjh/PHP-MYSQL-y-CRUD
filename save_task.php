@@ -15,7 +15,11 @@ if (isset($_POST["save_task"])){
     $_SESSION["message"] = "Task Saved succesfully";
     $_SESSION["message_type"] = "success";
 
+    $title = $_POST["lala"];
+//Esto es para redireccionar la pgina//
     header("Location: index.php");
+    //Agregando un cambio
+    
 }
 
 ?>
